@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/check",
+      "schedule": "*/10 * * * *",
+      "timeZone": "Australia/Melbourne"
+    }
+  ]
+}

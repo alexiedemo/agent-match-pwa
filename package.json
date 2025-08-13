@@ -1,0 +1,13 @@
+{
+  "name": "agent-match-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static build via public/'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "web-push": "^3.6.6"
+  }
+}
